@@ -1,0 +1,16 @@
+#dice img {
+    width: 100px; /* Set the width of the image */
+    height: 100px; /* Set the height of the image */
+    border: 2px solid #333; /* Add a border around the image */
+    border-radius: 5px; /* Add rounded corners to the border */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Add a subtle shadow effect */
+    display: block; /* Make the image a block element */
+    margin: 0 auto; /* Center the image horizontally */
+    transition: transform 0.3s ease; /* Add a smooth transition for transform property */
+}
+
+/* Hover effect */
+#dice img:hover {
+    transform: scale(1.1); /* Scale the image up by 10% on hover */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
